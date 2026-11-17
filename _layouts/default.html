@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <style>
+      /* small additions to the Minimal theme for the studies list */
+      header .studies { margin-top: 28px; }
+      header .studies h4 { margin-bottom: 6px; }
+      header .studies ul { list-style: none; padding: 0; margin: 0; }
+      header .studies li { margin: 0 0 6px; }
+      header .studies li.current a { font-weight: bold; color: #222; }
+      .study-list { list-style: none; padding: 0; }
+      .study-list li { margin-bottom: 18px; }
+      .study-list small { display: block; color: #777; }
+    </style>
+    {% include head-custom.html %}
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        {% assign header_title = page.header_title | default: site.title %}
+        {% assign header_url = page.header_url | default: "/" %}
+        <h1><a href="{{ header_url | relative_url }}">{{ header_title }}</a></h1>
+
+        {% if site.logo %}
+          <img src="{{ site.logo | relative_url }}" alt="Logo" />
+        {% endif %}
+
+        <p>{{ page.header_description | default: site.description }}</p>
+
+        {% for link in page.links %}
+          {% if link.url contains "://" %}
+            <p class="view"><a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.title }}{% if link.small %}<small>{{ link.small }}</small>{% endif %}</a></p>
+          {% else %}
+            <p class="view"><a href="{{ link.url | relative_url }}">{{ link.title }}{% if link.small %}<small>{{ link.small }}</small>{% endif %}</a></p>
+          {% endif %}
+        {% endfor %}
+
+        {% if page.section == "micro-brain" %}
+          <div class="studies">
+            <h4>Studies using &mu;Brain</h4>
+            <ul>
+              {% for study in site.data.microbrain_studies %}
+                <li{% if page.url == study.url %} class="current"{% endif %}><a href="{{ study.url | relative_url }}">{{ study.title }}</a></li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endif %}
+      </header>
+      <section>
+
+      {{ content }}
+
+      </section>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  </body>
+</html>

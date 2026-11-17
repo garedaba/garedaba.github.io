@@ -1,0 +1,17 @@
+# Studies built on the μBrain atlas. Shown in the sidebar of every μBrain page
+# and on the μBrain landing page. Add a new entry here when you add a study.
+
+- title: Cortical expansion
+  url: /micro-brain/cortical_expansion/
+  summary: Molecular signatures of cortical expansion in the human foetal brain
+  venue: Nature Communications, 2024
+
+- title: Prenatal network hubs
+  url: /micro-brain/prenatal_hubs/
+  summary: Transcriptomic divergence of network hubs in the prenatal human brain
+  venue: Communications Biology, 2025
+
+- title: Prenatal thalamus
+  url: /micro-brain/prenatal_thalamus/
+  summary: Thalamocortical constraints on areal connectivity in the developing human brain
+  venue: Science Advances (accepted)

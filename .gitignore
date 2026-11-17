@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Jekyll build output (only created by local previews)
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundler (local preview only; GitHub Pages builds its own)
+Gemfile.lock
+.bundle/
+vendor/
+
+# Files Claude saves into this folder
+Claude outputs/

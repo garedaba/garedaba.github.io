@@ -1,0 +1,12 @@
+remote_theme: pages-themes/minimal@v0.2.0
+title: garedaba
+description: research projects and resources
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
