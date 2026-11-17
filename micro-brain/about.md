@@ -17,15 +17,15 @@ links:
 ---
 
 # Important information
-**&mu;Brain is under construction and subject to revision.**  
+**&mu;Brain remains subject to revision.**  
 
-Built upon existing open-source data, the &mu;Brain atlas is a new and freely-available 3D volumetric model of the mid-fetal brain. 
+Built upon existing open-source data, the &mu;Brain atlas is a freely-available 3D volumetric model of the mid-fetal brain. 
 
 Using serial Nissl-stained and anatomically-labelled sections of the prenatal brain (Ding et al., 2022), we performed automated image repair using a generative neural network model before aligning all sections into a common anatomical space, resulting in a 3D volume at 150&mu;m voxel resolution. 
 
 ![slice-to-slice alignment and 3D reconstruction of uBrain]({{ '/micro-brain/assets/images/reconstruction.png' | relative_url }})
 
-The &mu;Brain volume is accompanied by a set of brain tissue labels (n=20) and surface models of the cortical plate surface. The cortical surface is further parcellated into a set of cytoarchitecturally-defined labels (n=29). To facilitate integration with fetal and neonatal neuroimaging studies, the cortical surfaces and parcellations have been aligned to the fetal surface template of the [Developing Human Connectome Project](https://gin.g-node.org/kcl_cdb/dhcp_fetal_brain_surface_atlas).
+The &mu;Brain volume is accompanied by a set of brain tissue labels (n=20) and surface models of the cortical plate surface. The cortical surface is further parcellated into a set of cytoarchitecturally-defined labels (n=29). To facilitate integration with fetal and neonatal neuroimaging studies, the cortical surfaces and parcellations have been aligned to the fetal and neonatal surface templates of the [Developing Human Connectome Project](https://gin.g-node.org/kcl_cdb/dhcp_fetal_brain_surface_atlas).
 
 ![uBrain atlas on dHCP cortical surface]({{ '/micro-brain/assets/images/surfaces.png' | relative_url }})
 
@@ -62,7 +62,7 @@ inner and outer cortical surfaces of the &mu;Brain volume
 look-up table for cortical atlas labels  
 
 ## Microarray data
-**&mu;Brain-processed-lmd-data.csv**  
+**&mu;Brain-processed-lmd-data.v1.csv**  
 LMD microarray data aligned to the &mu;Brain cortical atlas in long format. Each row contains normalised expression for a single observation. Each observation is identified by tissue (cortical plate, subplate, etc), cortical region in &mu;Brain, specimen and gene.
 
 ## Thalamic atlas
