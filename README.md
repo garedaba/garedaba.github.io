@@ -7,30 +7,9 @@ Website source for the [μBrain](https://garedaba.github.io/micro-brain/) atlas 
 | Redirect to μBrain | `/` | – |
 | μBrain atlas | `/micro-brain/` | [garedaba/micro-brain](https://github.com/garedaba/micro-brain) |
 | About μBrain | `/micro-brain/about` | – |
-| Cortical expansion | `/micro-brain/cortical_expansion/` | [garedaba/micro-brain](https://github.com/garedaba/micro-brain) (`ANALYSIS/`) |
+| Cortical expansion | `/micro-brain/cortical_expansion/` | [garedaba/micro-brain](https://github.com/garedaba/micro-brain) |
 | Prenatal network hubs | `/micro-brain/prenatal_hubs/` | [garedaba/prenatal-hubs](https://github.com/garedaba/prenatal-hubs) |
 | Prenatal thalamus | `/micro-brain/prenatal_thalamus/` | [garedaba/prenatal-thalamus](https://github.com/garedaba/prenatal-thalamus) |
-
-## Going live (one-off)
-
-1. Create a **public** repository named exactly `garedaba.github.io` and push this folder to its `main` branch.
-2. In that repo: **Settings → Pages → Build and deployment → Deploy from a branch → `main` / `(root)`**.
-3. In **garedaba/micro-brain**: **Settings → Pages → Unpublish site** (or set the source to *None*).
-   Until you do this, the old project site keeps serving `/micro-brain/` and takes priority over the new pages.
-4. Leave `docs/` in `micro-brain` alone: its README embeds images from `docs/assets/images/`.
-5. Optional: set the **Website** field in each code repo's *About* box to its page above (a settings change, no commit).
-
-## Adding a new μBrain study
-
-1. Copy `micro-brain/prenatal_hubs/` to `micro-brain/<new_study>/` and edit `index.md` (front matter `links:` drive the sidebar buttons).
-2. Add an entry to `_data/microbrain_studies.yml`; it then appears in the sidebar of every μBrain page and on both landing pages.
-
-## Preview locally
-
-```
-bundle install
-bundle exec jekyll serve
-```
 
 ## Structure
 
