@@ -12,7 +12,8 @@
       header .studies { margin-top: 28px; }
       header .studies h4 { margin-bottom: 6px; }
       header .studies ul { list-style: none; padding: 0; margin: 0; }
-      header .studies li { margin: 0 0 6px; }
+      header .studies li { margin: 0 0 14px; }
+      header .studies small { display: block; color: #777; font-size: 12px; line-height: 1.4; }
       header .studies li.current a { font-weight: bold; color: #222; }
       .study-list { list-style: none; padding: 0; }
       .study-list li { margin-bottom: 18px; }
@@ -46,7 +47,8 @@
             <h4>Studies using &mu;Brain</h4>
             <ul>
               {% for study in site.data.microbrain_studies %}
-                <li{% if page.url == study.url %} class="current"{% endif %}><a href="{{ study.url | relative_url }}">{{ study.title }}</a></li>
+                <li{% if page.url == study.url %} class="current"{% endif %}><a href="{{ study.url | relative_url }}">{{ study.title }}</a>
+                  <small>{{ study.summary }} &middot; {{ study.venue }}</small></li>
               {% endfor %}
             </ul>
           </div>

@@ -18,12 +18,3 @@ links:
 ---
 
 ![scrolling through uBrain](assets/images/ubrain.gif)
-
-## Studies using &mu;Brain
-
-<ul class="study-list">
-{% for study in site.data.microbrain_studies %}
-  <li><a href="{{ study.url | relative_url }}">{{ study.title }}</a>
-    <small>{{ study.summary }} &middot; {{ study.venue }}</small></li>
-{% endfor %}
-</ul>
