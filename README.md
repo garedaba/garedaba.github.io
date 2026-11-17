@@ -6,7 +6,7 @@ Website source for [garedaba.github.io](https://garedaba.github.io/).
 | Projects (landing) | `/` | – |
 | μBrain atlas | `/micro-brain/` | [garedaba/micro-brain](https://github.com/garedaba/micro-brain) |
 | About μBrain | `/micro-brain/about` | – |
-| Cortical expansion | `/micro-brain/cortical_expansion/` | [garedaba/micro-brain](https://github.com/garedaba/micro-brain) (`ANALYSIS/`) |
+| Cortical expansion | `/micro-brain/cortical_expansion/` | [garedaba/micro-brain](https://github.com/garedaba/micro-brain) |
 | Prenatal network hubs | `/micro-brain/prenatal_hubs/` | [garedaba/prenatal-hubs](https://github.com/garedaba/prenatal-hubs) |
 | Prenatal thalamus | `/micro-brain/prenatal_thalamus/` | [garedaba/prenatal-thalamus](https://github.com/garedaba/prenatal-thalamus) |
 
