@@ -14,7 +14,7 @@ links:
     url: https://github.com/garedaba/micro-brain
   - title: Download the Data from Zenodo
     small: 3D volume, surfaces and microarray data
-    url: https://doi.org/10.5281/zenodo.10622337
+    url: https://doi.org/10.5281/zenodo.10622336
 ---
 
 ![scrolling through uBrain](assets/images/ubrain.gif)

@@ -15,7 +15,7 @@ links:
     url: https://github.com/garedaba/prenatal-thalamus
   - title: Download the Thalamic Atlas from Zenodo
     small: "&mu;Brain thalamic nuclei and microarray data"
-    url: https://zenodo.org/records/24151361
+    url: https://doi.org/10.5281/zenodo.10622336
 ---
 
 # Thalamocortical constraints on areal connectivity in the developing human brain
@@ -34,7 +34,7 @@ Building on the &mu;Brain atlas, we created a 3D atlas of the mid-gestation thal
 
 ![charting thalamic development in the mid-to-late gestation human brain](assets/images/figure-1.jpg)
 
-The thalamic atlas and matched microarray data are available on [Zenodo](https://zenodo.org/records/24151361).
+The thalamic atlas and matched microarray data are available on [Zenodo](https://doi.org/10.5281/zenodo.10622336).
 
 ## Thalamic maturation follows the functional hierarchy
 Thalamic nuclei express genes for morphogens, thalamic identity, axon guidance and excitatory neuron function. We trained a model to predict tissue age from bulk RNA-seq of the developing thalamus and applied it to individual nuclei at mid-gestation. First-order sensory relay nuclei, such as the medial geniculate and ventral posterior nuclei, appear more mature than higher-order midline, anterior and pulvinar nuclei. Maturation follows a lateral-to-medial gradient that mirrors the feedforward&ndash;feedback hierarchy of the mouse thalamus. The genes that track age are expressed mainly by excitatory thalamic neurons.

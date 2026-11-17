@@ -15,7 +15,7 @@ links:
     url: https://github.com/garedaba/prenatal-hubs
   - title: Download the Data from Zenodo
     small: "&mu;Brain volume, surfaces and microarray data"
-    url: https://doi.org/10.5281/zenodo.10622337
+    url: https://doi.org/10.5281/zenodo.10622336
 ---
 
 # Transcriptomic divergence of network hubs in the prenatal human brain

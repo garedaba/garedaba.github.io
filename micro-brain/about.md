@@ -13,7 +13,7 @@ links:
     url: https://github.com/garedaba/micro-brain
   - title: Download the Data from Zenodo
     small: 3D volume, surfaces and microarray data
-    url: https://doi.org/10.5281/zenodo.10622337
+    url: https://doi.org/10.5281/zenodo.10622336
 ---
 
 # Important information
@@ -66,7 +66,7 @@ look-up table for cortical atlas labels
 LMD microarray data aligned to the &mu;Brain cortical atlas in long format. Each row contains normalised expression for a single observation. Each observation is identified by tissue (cortical plate, subplate, etc), cortical region in &mu;Brain, specimen and gene.
 
 ## Thalamic atlas
-A 3D atlas of thalamic nuclei derived from &mu;Brain, aligned to the dHCP fetal and neonatal templates and matched to microarray data, is available separately on [Zenodo](https://zenodo.org/records/24151361). See [Prenatal thalamus]({{ '/micro-brain/prenatal_thalamus/' | relative_url }}).
+A 3D atlas of thalamic nuclei derived from &mu;Brain, aligned to the dHCP fetal and neonatal templates and matched to microarray data, is available on [Zenodo](https://doi.org/10.5281/zenodo.10622336). See [Prenatal thalamus]({{ '/micro-brain/prenatal_thalamus/' | relative_url }}).
 
 
 
