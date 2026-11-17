@@ -26,10 +26,10 @@ links:
 ## Summary
 The most densely connected regions of the brain's network, its hubs, sit mainly in association and paralimbic cortex. We identified cortical hubs in structural connectomes from 208 term-born neonates, mapped them onto the cortical regions of the &mu;Brain atlas, and compared regional gene expression across tissue zones at mid-gestation.
 
-Genes with higher expression in future hub regions are involved in early neural circuit formation, are expressed mostly in the transient subplate and intermediate zones, and are enriched in excitatory neuronal lineages. Many overlap with markers of cortical expansion and interhemispheric connectivity in the adult brain.
+Genes with higher expression in regions that become network hubs are involved in early neural circuit formation, are expressed mostly in the transient subplate and intermediate zones, and are enriched in excitatory neuronal lineages. Many overlap with markers of cortical expansion and interhemispheric connectivity in the adult brain.
 
 ## Network hubs at birth
-Using diffusion MRI from the [Developing Human Connectome Project](http://www.developingconnectome.org/), we built a high-resolution structural network for the newborn cortex by subdividing each &mu;Brain region into smaller parcels. A small set of highly connected nodes form a densely interconnected *rich club*, linked by long-range connections. These hubs are located in the insula, cingulate, ventrolateral frontal and dorsal parietal cortex. The same pattern is found in individual neonates, suggesting that the core hub architecture of the brain is already in place at birth.
+Using diffusion MRI from the [Developing Human Connectome Project](http://www.developingconnectome.org/), we built a high-resolution structural network for the newborn cortex by subdividing each &mu;Brain region into smaller parcels. A small set of highly connected nodes form a densely interconnected *rich club*, linked by long-range connections. These hubs are located in the insula, cingulate, ventrolateral frontal and dorsal parietal cortex. The same pattern is found in individual neonates, and matches that observed in adults, suggesting that the core hub architecture of the brain is already in place at birth.
 
 ![neonatal network hubs mapped to the uBrain cortical surface](assets/images/hubs-network.png)
 
@@ -38,7 +38,7 @@ see: [**MATLAB code**](https://github.com/garedaba/prenatal-hubs/blob/main/MATLA
 ## Gene expression associated with hub status
 We matched microarray data from four prenatal specimens (16&ndash;21 post-conception weeks) to the &mu;Brain atlas and tested whether regional gene expression before birth predicts which regions will become hubs. Several hundred genes are associated with hub status, almost all in the post-mitotic cortical plate, subplate and intermediate zones rather than in proliferative zones.
 
-Genes with higher expression in future hubs (*hub+* genes) include transcription factors and genes involved in dendrite growth, neurite outgrowth and axon guidance, such as *CUX1*, *NR4A2* and *EFNA5*, and are enriched for synapse assembly and organisation. Genes with lower expression in future hubs (*hub&minus;* genes) include regulators of progenitor fate and neuronal differentiation, such as *EMX2* and *NEUROD1*.
+Genes with higher expression in future network hubs (*hub+* genes) include transcription factors and genes involved in dendrite growth, neurite outgrowth and axon guidance, such as *CUX1*, *NR4A2* and *EFNA5*, and are enriched for synapse assembly and organisation. Genes with lower expression in future hubs (*hub&minus;* genes) include regulators of progenitor fate and neuronal differentiation, such as *EMX2* and *NEUROD1*.
 
 ![gene expression associations with nodal degree in each tissue zone](assets/images/gene-associations.png)
 
