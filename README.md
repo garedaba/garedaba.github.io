@@ -1,10 +1,10 @@
 # garedaba.github.io
 
-Website source for [garedaba.github.io](https://garedaba.github.io/). Code for each project lives in its own repository; this repo only holds the website.
+Website source for the [μBrain](https://garedaba.github.io/micro-brain/) atlas and the studies built on it. Code for each study lives in its own repository; this repo only holds the website.
 
 | Page | URL | Code |
 |---|---|---|
-| Projects (landing) | `/` | – |
+| Redirect to μBrain | `/` | – |
 | μBrain atlas | `/micro-brain/` | [garedaba/micro-brain](https://github.com/garedaba/micro-brain) |
 | About μBrain | `/micro-brain/about` | – |
 | Cortical expansion | `/micro-brain/cortical_expansion/` | [garedaba/micro-brain](https://github.com/garedaba/micro-brain) (`ANALYSIS/`) |
